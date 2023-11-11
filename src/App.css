@@ -34,7 +34,7 @@
   }
 }
 
-.imgintro{width: 98.7vw;height: 85vh;margin-bottom: 12vh;}
+.imgintro{width: 98.7vw;height: 100vh;margin-bottom: 12vh;}
 .App{
   background-color:#070664;display: flex;flex-direction: column;align-items: center;justify-content: center;
 }
@@ -57,42 +57,78 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
   .fcont img{width: 27vw;height: auto;border-bottom-left-radius: 4vw;border-top-left-radius: 4vw;}
   .fcont p{font-size:2.3vw;color: aliceblue;font-style: italic;width: 50vw;}
 
-  .ked{font-size: 2.4vw;background-color: rgb(213, 253, 253);color: #282c34;border-radius: 4vw;margin-left: 45vw;
+  .ked{font-size: 2vw;background-color: rgb(213, 253, 253);color: #282c34;border-radius: 4vw;margin-left: 45vw;
   padding: 1vw;margin-bottom: 4vh;}
 
-  .mdcont{display: flex;flex-direction: row-reverse;background-color: rgb(28, 134, 37);border-radius: 4vw;
+  .mdcont{display: flex;flex-direction: row-reverse;background-color: rgb(23, 100, 114);border-radius: 4vw;
     width: 90vw;height: auto;align-items: center;justify-content:space-between;margin-bottom: 9vh;white-Space: 'pre-line'}
-    .mdcont img{width: 37vw;height: auto;border-bottom-left-radius: 4vw;border-top-left-radius: 4vw;}
-    .mdcont p{font-size:2.3vw;color: aliceblue;font-style: italic;width: 42vw;}
+    .mdcont img{width: 37vw;height: auto;border-bottom-left-radius: 4vw;border-top-left-radius: 4vw;max-height: 45vh;}
+    .mdcont p{font-size:2.3vw;color: rgb(3, 19, 34);font-style: italic;width: 42vw;}
 
 
-    .mkcont{display: flex;flex-direction: row-reverse;background-color: rgb(233, 212, 22);border-radius: 4vw;
+    .mkcont{display: flex;flex-direction: row-reverse;background-color: rgb(233, 194, 22);border-radius: 4vw;
       width: 90vw;height: auto;align-items: center;justify-content:space-between;margin-bottom: 9vh;white-Space: 'pre-line'}
-      .mkcont img{width: 37vw;height: auto;border-bottom-left-radius: 4vw;border-top-left-radius: 4vw;}
+      .mkcont img{width: 37vw;height: auto;
+       max-height: 45vh; border-bottom-left-radius: 4vw;border-top-left-radius: 4vw;}
       .mkcont p{font-size:2.3vw;color: aliceblue;font-style: italic;width:42vw;}
 
 
 
 
       .cont{display: flex;flex-direction: column;align-items: end;justify-content: center;padding: 1vw;}
-      .cont h1{font-size: 2.4vw;color: #282c34;}
-
+      .cont h1{font-size: 2vw;color: #0c275c;}
+      
+      .contm{display: flex;flex-direction: column;align-items: end;justify-content: center;padding: 1vw;}
+      .contm h1{font-size: 2vw;color: azure;}
 
       .types{display: flex;flex-direction: column;align-items: center;justify-content: center;background-color: rgb(255, 255, 255);
-      border-radius: 4vw;height: auto;width: auto;margin-bottom: 10vh;}
-      .types h1{color: #282c34;font-size: 2.4vw;}
+      border-radius: 4vw;height: auto;width: 90vw;margin-bottom: 10vh;}
+      .types h2{color: #282c34;font-size: 2vw;}
       .types ul{color: #282c34;font-size: 2vw;list-style: none;font-weight: bold;background-color:  rgb(213, 253, 253);
       border-radius: 4vw;padding: 2vw;}
 
 
+        .prices{background-color: red;display: flex;flex-direction: column;
+        align-items: end;justify-content: center;border-radius: 4vw;height: auto;width: 75vw;
+      padding: 1vw;margin-top: 5vh;}
+        .prices h1{font-size: 2vw;color: azure;}
+        .print{display: flex;flex-direction: row-reverse;align-items: center;justify-content: center;
+        background-color: azure;font-size: 1.3vw;border-radius: 4vw;}
+        .print li{color: rgb(80, 76, 76);font-weight: bold;margin-bottom: 2vh;}
+        .print ul{list-style: none;}
+        .print img{width: 30vw;height: auto;border-radius: 4vw;}
 
-      .prc{border-radius: 4vw;background-color: #070664;color: azure;
- border-style: solid;border-width: 0.5vw;border-color: rgb(255, 0, 0);      font-size: 1.5vw;padding:2vw;
-display: flex;flex-direction: column;align-items: end;width: 50vw;}
- .prc h1{font-size: 1vw;}
- .contct{background-color: #27acd1;color: #282c34;font-size: 3vw;
-border-radius:4vw ;display: flex;flex-direction: column;align-items: end;
-padding: 2vw;margin-top: 10vh; border-style: solid;border-width: 0.5vw;border-color: rgb(9, 136, 130); }
+         
+
+        .pricesb{background-color:azure;display: flex;flex-direction: column;
+          align-items: center;justify-content: center;border-radius: 4vw;height: auto;width: 50vw;
+        padding: 1vw;margin-top: 5vh;}
+          .pricesb h1{font-size: 2vw;color: rgb(21, 78, 78);}
+          .printb{display: flex;flex-direction: row-reverse;align-items: center;justify-content: center;
+          background-color: azure;font-size: 1.3vw;border-radius: 4vw;}
+          .printb li{color: rgb(80, 76, 76);font-weight: bold;margin-bottom: 2vh;}
+          .printb ul{list-style: none;padding: 1vw;}
+
+
+
+
+
+
+          .pricesc{background-color: rgb(0, 140, 255);display: flex;flex-direction: column;
+            align-items: end;justify-content: center;border-radius: 4vw;height: auto;width:55vw;
+          padding: 1vw;margin-top: 5vh;}
+            .pricesc h1{font-size: 2vw;color: azure;}
+            .printc{display: flex;flex-direction: row-reverse;align-items: center;justify-content: center;
+            background-color: azure;font-size: 1.3vw;border-radius: 4vw; padding: 1vw;}
+            .printc li{color: rgb(80, 76, 76);font-weight: bold;margin-bottom: 2vh;}
+            .printc ul{list-style: none;}
+            .printc img{width: 30vw;height: auto;border-radius: 4vw;}
+            .pricesc a{text-decoration:underline;color: rgb(80, 76, 76);font-size: 1.3vw;font-weight: bold;}
+            .prices a:hover{cursor: pointer;}
+            .pricesc a:visited{color:  rgb(80, 76, 76);}
+
+
+
 
 
 @media only screen and (max-width: 768px) {
@@ -111,8 +147,6 @@ padding: 2vw;margin-top: 10vh; border-style: solid;border-width: 0.5vw;border-co
 .mkcont p{font-size: 4.8vw;}
 .cont h1{font-size: 5vw;}
 
-.prc{font-size: 3vw;}
-.prc h1{font-size: 2vw;}
 .ked {font-size: 4.8vw;margin-left: 0;}
 .types ul{font-size: 4vw;}
 .types h1{font-size: 2.5vw;}
