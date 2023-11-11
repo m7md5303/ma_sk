@@ -125,7 +125,7 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
             .printc img{width: 30vw;height: auto;border-radius: 4vw;}
             .pricesc a{text-decoration:underline;color: rgb(80, 76, 76);font-size: 1.3vw;font-weight: bold;}
             .prices a:hover{cursor: pointer;}
-            .pricesc a:visited{color:  rgb(80, 76, 76);}
+            .pricesc a:visited{color:  rgb(80, 76, 76);;}
 
 
 
