@@ -219,7 +219,7 @@ function App() {
           <li>01001485673</li>
           <li>01004245835</li>
           <li>01005176087</li>
-          <li>البريد الالكتروني: info@almassa-travelgroup.com</li>
+          <li>e-mail: info@almassa-travelgroup.com</li>
           <a href ="https://www.facebook.com/profile.php?id=61552124111227">أو من خلال صفحتنا علي فيسبوك </a>
           <li className='t'>مسئول التقسيط:01006501820</li>
         </ul>
