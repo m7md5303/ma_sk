@@ -143,7 +143,10 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
 .mdcont img{height: 27vh;}
 .mkcont{height: 27vh;}
 .mkcont img{height: 27vh;}
-
+.mkcont h1{font-size: 4vw;}
+.mdcont h1{font-size: 4vw;}
+.mdcont p{width: 50vw;}
+.mkcont p{width: 50vw;}
 .cont h1{font-size: 4vw;}
 .contm h1{font-size: 4vw;}
 .prices h1{font-size: 4vw}
@@ -156,8 +159,8 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
 .pricesc {width: 85vw;}
 .printc{width: 80vw;}
 .pricesc img{height: 30vh;}
-.pricesb{width: 80vw;}
-.printb{width: 80vw;}
+.pricesb{width: 87vw;}
+.printb{width: 87vw;}
 .prices img{height: 35vh;}
 .ked{width: auto;margin-left: 0;}
 .cont p{font-size: 3vw}
