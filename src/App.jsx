@@ -17,6 +17,7 @@ import ka from './images/keswa.jpg'
 import htyq from './images/emar.png'
 import kaq from './images/kher.png'
 import fpr from './images/fpr.jpg'
+import fpp from './images/fpp.jpg'
 import './App.css';
 import Mekka from './components/Mekka';
 import Madina from './components/Madina';
@@ -178,7 +179,7 @@ function App() {
           <li>مزارات مكة المكرمة و المدينة المنورة</li>
           <li>استخراج تأشيرة العمرة بالباركود</li>
         </ul>
-<img src={fpr}/></div>
+<img src={fpp}/></div>
 
 
 

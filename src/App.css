@@ -132,7 +132,7 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
 
 
 @media only screen and (max-width: 768px) {
-  .imgintro{height: 77vh;}
+  .imgintro{height: auto;}
  .kcont p{font-size: 4.6vw;}
  .kcont{height: 40vh;width: auto;}
  .kcont img{height: 40vh;width: 40vw;}
@@ -145,9 +145,18 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
 .mkcont img{height: 27vh;}
 .mdcont p{font-size:4.8vw;}
 .mkcont p{font-size: 4.8vw;}
-.cont h1{font-size: 5vw;}
+.cont h1{font-size: 4vw;}
+.contm h1{font-size: 4vw;}
+.prices h1{font-size: 4vw}
+.print {font-size: 2.6vw;}
+.pricesb h1{font-size: 4vw}
+.printb {font-size: 2.6vw;}
+.pricesc h1{font-size: 4vw}
+.printc {font-size: 2.6vw;}
 
-.ked {font-size: 4.8vw;margin-left: 0;}
+
+
+
 .types ul{font-size: 4vw;}
 .types h1{font-size: 2.5vw;}
 }
