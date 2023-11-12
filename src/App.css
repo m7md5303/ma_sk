@@ -150,6 +150,7 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
 .cont h1{font-size: 4vw;}
 .contm h1{font-size: 4vw;}
 .prices h1{font-size: 4vw}
+.prices{width: 85vw;}
 .print {font-size: 2.6vw;}
 .pricesb h1{font-size: 4vw}
 .printb {font-size: 2.6vw;}
@@ -158,10 +159,10 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
 .printc {font-size: 2.6vw;}
 .pricesc {width: 85vw;}
 .printc{width: 80vw;}
-.pricesc img{height: 30vh;}
-.pricesb{width: 87vw;}
-.printb{width: 87vw;}
-.prices img{height: 35vh;}
+.pricesc img{height: 25vh;}
+.pricesb{width: 95vw;}
+.printb{width: 95vw;}
+.prices img{height: 30vh;}
 .ked{width: auto;margin-left: 0;}
 .cont p{font-size: 3vw}
 .contm p{font-size: 3vw;}
