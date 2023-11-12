@@ -63,14 +63,14 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
   .mdcont{display: flex;flex-direction: row-reverse;background-color: rgb(23, 100, 114);border-radius: 4vw;
     width: 90vw;height: auto;align-items: center;justify-content:space-between;margin-bottom: 9vh;white-Space: 'pre-line'}
     .mdcont img{width: 37vw;height: auto;border-bottom-left-radius: 4vw;border-top-left-radius: 4vw;max-height: 45vh;}
-    .mdcont p{font-size:2.3vw;color: rgb(3, 19, 34);font-style: italic;width: 42vw;}
+    .mdcont p{font-size:2.3vw;color: rgb(3, 19, 34);font-style: italic;width: 42vw;font-weight: bold;}
 
 
     .mkcont{display: flex;flex-direction: row-reverse;background-color: rgb(233, 194, 22);border-radius: 4vw;
       width: 90vw;height: auto;align-items: center;justify-content:space-between;margin-bottom: 9vh;white-Space: 'pre-line'}
       .mkcont img{width: 37vw;height: auto;
        max-height: 45vh; border-bottom-left-radius: 4vw;border-top-left-radius: 4vw;}
-      .mkcont p{font-size:2.3vw;color: aliceblue;font-style: italic;width:42vw;}
+      .mkcont p{font-size:2.3vw;color: aliceblue;font-style: italic;width:42vw;font-weight: bold;}
 
 
 

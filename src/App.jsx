@@ -10,7 +10,8 @@ import khedma from './images/m1.jpg'
 import flight from './images/flight.jpg'
 import sm from './images/ram.jpg'
 import con from './images/conus.jpg'
-import tr from './images/elaf.jpg'
+import er from './images/elaf.jpg'
+import tr from './images/tree.jpg'
 import ty from './images/sa7a.png'
 import hty from './images/hayah_tyba.webp'
 import ka from './images/keswa.jpg'
@@ -71,7 +72,7 @@ function App() {
   
   <Fade delay={200}>
   <h1 className='ked'> ⭐⭐⭐⭐ برامج الأربع نجوم 10 أيام- 9 ليالي </h1>
-   <Mekka title={"ايلاف المشاعر أو الشهداء أو ما يماثله"} img={tr} para={"   مدة الاقامة: خمس ليالي || الوجبات: بالافطار "}/>
+   <Mekka title={"ايلاف المشاعر أو الشهداء أو ما يماثله"} img={er} para={"   مدة الاقامة: خمس ليالي || الوجبات: بالافطار "}/>
    <Madina title={"الساحة أو سجي المدينة أو ما يماثله"} img={ty} para={"  مدة الاقامة: أربع ليالي|| الوجبات: بالافطار " }/> 
    <h2 className='date' >تاريخ الرحلة: من يوم 22 جمادى الأولي 1445 هجري الى 29 جمادي الأولي 1445 هجري</h2>
     <h2 className='date'>تاريخ الرحلة: من يوم 6 ديسمبر 2023 الى 13 ديسمبر 2023</h2>
@@ -147,7 +148,7 @@ function App() {
      </Fade>
      <Fade delay={200}>
      <div className='pricesb'>
-     <h1>ملاحظات بالنسبة للبرامج فوق الاقتصادية تشمل</h1>
+     <h1>ملاحظات بالنسبة للبرامج فوق الاقتصادية</h1>
       <div className='printb'>
         <ul>
           <li>مطلوب جواز سفر بصلاحية لا تقل عن سنة</li>
@@ -188,7 +189,7 @@ function App() {
      </Fade>
      <Fade delay={200}>
      <div className='pricesb'>
-     <h1>ملاحظات بالنسبة للبرامج الاقتصادية تشمل</h1>
+     <h1>ملاحظات بالنسبة للبرامج فوق الاقتصادية</h1>
       <div className='printb'>
         <ul>
           <li>مطلوب جواز سفر بصلاحية لا تقل عن سنة</li>
