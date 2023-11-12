@@ -155,13 +155,13 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
 .printc {font-size: 2.6vw;}
 .pricesc {width: 85vw;}
 .printc{width: 80vw;}
-.pricesc img{height: 35vh;}
+.pricesc img{height: 30vh;}
 .pricesb{width: 80vw;}
 .printb{width: 80vw;}
 .prices img{height: 35vh;}
-.ked{width: 60vw;}
-.cont p{font-size: 3.5vw}
-.contm p{font-size: 3.5vw;}
+.ked{width: auto;margin-left: 0;}
+.cont p{font-size: 3vw}
+.contm p{font-size: 3vw;}
 
 .types{width: 90vw;}
 .types ul{font-size: 3vw;}
