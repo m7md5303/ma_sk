@@ -143,8 +143,7 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
 .mdcont img{height: 27vh;}
 .mkcont{height: 27vh;}
 .mkcont img{height: 27vh;}
-.mdcont p{font-size:4.8vw;}
-.mkcont p{font-size: 4.8vw;}
+
 .cont h1{font-size: 4vw;}
 .contm h1{font-size: 4vw;}
 .prices h1{font-size: 4vw}
@@ -154,15 +153,18 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
 .pricesc h1{font-size: 4vw}
 .pricesc a{font-size: 2.6vw;}
 .printc {font-size: 2.6vw;}
-.pricesc {width: 70vw;}
-.printc{width: 65vw;}
-.pricesb{width: 70vw;}
-.printb{width: 70vw;}
-.prices img{height: 40vh;}
-
-
+.pricesc {width: 85vw;}
+.printc{width: 80vw;}
+.pricesc img{height: 35vh;}
+.pricesb{width: 80vw;}
+.printb{width: 80vw;}
+.prices img{height: 35vh;}
+.ked{width: 60vw;}
+.cont p{font-size: 3.5vw}
+.contm p{font-size: 3.5vw;}
 
 .types{width: 90vw;}
-.types ul{font-size: 4vw;}
+.types ul{font-size: 3vw;}
 .types h1{font-size: 2.5vw;}
+.types h2{font-size: 2.7vw;}
 }
