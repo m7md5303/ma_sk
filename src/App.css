@@ -152,11 +152,17 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
 .pricesb h1{font-size: 4vw}
 .printb {font-size: 2.6vw;}
 .pricesc h1{font-size: 4vw}
+.pricesc a{font-size: 2.6vw;}
 .printc {font-size: 2.6vw;}
+.pricesc {width: 70vw;}
+.printc{width: 65vw;}
+.pricesb{width: 70vw;}
+.printb{width: 70vw;}
+.prices img{height: 40vh;}
 
 
 
-
+.types{width: 90vw;}
 .types ul{font-size: 4vw;}
 .types h1{font-size: 2.5vw;}
 }
