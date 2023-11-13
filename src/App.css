@@ -63,14 +63,14 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
   .mdcont{display: flex;flex-direction: row-reverse;background-color: rgb(23, 100, 114);border-radius: 4vw;
     width: 90vw;height: auto;align-items: center;justify-content:space-between;margin-bottom: 9vh;white-Space: 'pre-line'}
     .mdcont img{width: 37vw;height: auto;border-bottom-left-radius: 4vw;border-top-left-radius: 4vw;max-height: 45vh;}
-    .mdcont p{font-size:2.3vw;color: rgb(3, 19, 34);font-style: italic;width: 42vw;font-weight: bold;}
+    .mdcont p{font-size:2.3vw;color: rgb(3, 19, 34);font-style: italic;width: 47vw;font-weight: bold;}
 
 
     .mkcont{display: flex;flex-direction: row-reverse;background-color: rgb(233, 194, 22);border-radius: 4vw;
       width: 90vw;height: auto;align-items: center;justify-content:space-between;margin-bottom: 9vh;white-Space: 'pre-line'}
       .mkcont img{width: 37vw;height: auto;
        max-height: 45vh; border-bottom-left-radius: 4vw;border-top-left-radius: 4vw;}
-      .mkcont p{font-size:2.3vw;color: aliceblue;font-style: italic;width:42vw;font-weight: bold;}
+      .mkcont p{font-size:2.3vw;color: aliceblue;font-style: italic;width:47vw;font-weight: bold;}
 
 
 
@@ -118,18 +118,19 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
             align-items: end;justify-content: center;border-radius: 4vw;height: auto;width:55vw;
           padding: 1vw;margin-top: 5vh;}
             .pricesc h1{font-size: 2vw;color: azure;}
-            .printc{display: flex;flex-direction: row-reverse;align-items: center;justify-content: center;
-            background-color: azure;font-size: 1.3vw;border-radius: 4vw; padding: 1vw;}
-            .printc li{color: rgb(80, 76, 76);font-weight: bold;margin-bottom: 2vh;}
+            .printc{display: flex;flex-direction: row-reverse;align-items: end;justify-content: center;
+            background-color: azure;font-size: 1.3vw;border-radius: 4vw; padding: 1vw;height: auto;}
+            .printc li{color: rgb(80, 76, 76);font-weight: bold;margin-bottom: 2vh;margin-top: 2vh;}
             .printc ul{list-style: none;}
             .printc img{width: 30vw;height: auto;border-radius: 4vw;}
-            .pricesc a{text-decoration:underline;color: rgb(80, 76, 76);font-size: 1.3vw;font-weight: bold;
-            margin-bottom: 4vh;}
-            .prices a:hover{cursor: pointer;}
-            .pricesc a:visited{color:  rgb(80, 76, 76);;}
+            .pricesa{text-decoration:underline;color: rgb(80, 76, 76);font-size: 1.3vw;font-weight: bold;
+            margin-bottom: 7vh;}
+            .pricesa:hover{cursor: pointer;}
+            .pricesa:visited{color:  rgb(80, 76, 76);;}
             .t{margin-top: 4vh;}
-
-
+      .f {font-size: 1.7vw;margin-bottom: 4vh;color: rgb(11, 119, 182);font-weight: bold;}
+      .f:hover{cursor: pointer;}
+            .f:visited{color:  rgb(11, 119, 182);;}
 
 
 @media only screen and (max-width: 768px) {

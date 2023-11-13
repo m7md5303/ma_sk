@@ -212,15 +212,17 @@ function App() {
 
      <Fade delay={200}>
      <div className='pricesc'>
-     <h1>للتواصل</h1>
+     <h1>للحجز و التواصل</h1>
       <div className='printc'>
         <ul>
+          <a href='https://docs.google.com/forms/d/e/1FAIpQLSduJ_PMDHLPPEPTy-dcnn17lvGcsm7xEI2UzAc572_NbsTUcQ/viewform'  className='f'>يمكنكم الحجز مباشرة من هنا</a>
+          <li>أو من خلال</li>
           <li>هواتف الشركة: 35722066</li>
           <li>01001485673</li>
           <li>01004245835</li>
           <li>01005176087</li>
           <li>e-mail: info@almassa-travelgroup.com</li>
-          <a href ="https://www.facebook.com/profile.php?id=61552124111227">أو من خلال صفحتنا علي فيسبوك </a>
+          <a href ="https://www.facebook.com/profile.php?id=61552124111227" className='pricesa'>أو من خلال صفحتنا علي فيسبوك </a>
           <li className='t'>مسئول التقسيط:01006501820</li>
         </ul>
 <img src={con}/></div>
