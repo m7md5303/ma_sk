@@ -121,7 +121,7 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
             .printc{display: flex;flex-direction: row-reverse;align-items: end;justify-content: center;
             background-color: azure;font-size: 1.3vw;border-radius: 4vw; padding: 1vw;height: auto;}
             .printc li{color: rgb(80, 76, 76);font-weight: bold;margin-bottom: 2vh;margin-top: 2vh;}
-            .printc ul{list-style: none;}
+            .printc ul{list-style: none;width: 23vw;}
             .printc img{width: 30vw;height: auto;border-radius: 4vw;}
             .pricesa{text-decoration:underline;color: rgb(80, 76, 76);font-size: 1.3vw;font-weight: bold;
             margin-bottom: 7vh;}
@@ -168,7 +168,7 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
 .ked{width: auto;margin-left: 0;}
 .cont p{font-size: 2.5vw}
 .contm p{font-size: 2.5vw;}
-.f{font-size:2.6vw;}
+.f{font-size:3vw;}
 .types{width: 90vw;}
 .types ul{font-size: 3vw;}
 .types h1{font-size: 3vw;}
