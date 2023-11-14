@@ -3,10 +3,15 @@ import { TypeAnimation } from 'react-type-animation';
 import {
   BrowserRouter as Router, Route, Link, Routes
 } from "react-router-dom";
+import { useState } from 'react'
 import { Fade } from "react-awesome-reveal";
 import m from './images/covsub.jpg'
 import l from './images/email-logo.png'
 import khedma from './images/m1.jpg'
+import eqt from './images/eqt.jpg'
+import tlataan from './images/3.jpg'
+import arba3a from './images/2.jpg'
+import khamsa from './images/1.jpg'
 import flight from './images/flight.jpg'
 import sm from './images/ram.jpg'
 import con from './images/conus.jpg'
@@ -26,9 +31,13 @@ import Khedma from './components/Khedma';
 import Flight from './components/Flight';
 
 function App() {
+  const [show5,setShow5]=useState(false); 
+  const [show4,setShow4]=useState(false); 
+  const [show3,setShow3]=useState(false); 
+  const [showe,setShowe]=useState(false); 
   return (
     <div className="App">
-       {window.scrollTo(0,0)}
+      
       <img src={m} className='imgintro'/>
       <div className='mintro'>    <Fade delay={200}>
       <img src={l} className='l'/>
@@ -51,7 +60,9 @@ function App() {
      <Khedma img={khedma}para={"تقوم الشركة بتوفير خدمات ذات مستويات عالية لعملائها الكرام كما تتيح لهم فرصة اختيار ما ينسابهم من برامج اقامة و خدمات اضافة الى امكانية تقديم برامج مخصوصة للأفراد حسبما يناسب العملاء و الشركة"} />
      <Flight img={flight}para={"كما لم تنس الشركة توفير خدمة الطيران من والى الحرمين علي متن طائرات مصر للطيران و الخط السعودي للطيران متيحة لعملائها أفضل الخدمات"}/>
     
-
+     <img src={khamsa}alt='Loading⏳' className='im'/>
+            <button onClick={()=>{setShow5(!show5)}} className='bt'>{show5? "اخفاء" :"عرض"} </button>
+            {show5?
  <div className='types'>
   
    <Fade delay={200}>
@@ -66,8 +77,13 @@ function App() {
       <li>سعر الرباعي:55500 جنيه مصري-</li>
     </ul>
       </Fade> 
-    </div>
+    </div>:null}
       
+
+    <img src={arba3a}alt='Loading⏳' className='im'/>
+            <button onClick={()=>{setShow4(!show4)}} className='bt'>{show4? "اخفاء" :"عرض"} </button>
+            {show4?
+
     <div className='types'>
   
   <Fade delay={200}>
@@ -82,9 +98,11 @@ function App() {
      <li>سعر الرباعي:49500 جنيه مصري-</li>
    </ul>
      </Fade> 
-   </div>
+   </div>:null}
  
-
+   <img src={tlataan}alt='Loading⏳' className='im'/>
+            <button onClick={()=>{setShow3(!show3)}} className='bt'>{show3? "اخفاء" :"عرض"} </button>
+            {show3?
 
    <div className='types'>
   
@@ -100,10 +118,12 @@ function App() {
      <li>سعر الرباعي:30500 جنيه مصري-</li>
    </ul>
      </Fade> 
-   </div>
+   </div>:null}
 
 
-
+   <img src={eqt}alt='Loading⏳' className='im'/>
+            <button onClick={()=>{setShowe(!showe)}} className='bt'>{showe? "اخفاء" :"عرض"} </button>
+            {showe?
    <div className='types'>
   
   <Fade delay={200}>
@@ -118,7 +138,7 @@ function App() {
      <li>سعر الرباعي:28700 جنيه مصري-</li>
    </ul>
      </Fade> 
-   </div>
+   </div>:null}
 
 
 

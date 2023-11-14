@@ -132,6 +132,15 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
       .f:hover{cursor: pointer;}
             .f:visited{color:  rgb(11, 119, 182);;}
 
+.im{width: 45vw;height: auto;border-radius: 4vw;}
+.bt{width: 12vw;height: 5.5vh;border-radius: 4vw;margin-bottom: 9vh;background-color: rgb(1, 69, 216);
+color: white;font-size: 1.8vw;font-weight: bold;}
+.bt:hover{cursor: pointer;background-color:rgb(8, 79, 233);}
+
+
+
+
+
 
 @media only screen and (max-width: 768px) {
   .imgintro{height: auto;}
@@ -174,4 +183,5 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
 .types ul{font-size: 3vw;}
 .types h1{font-size: 3vw;}
 .types h2{font-size: 2vw;}
+.bt{font-size: 2.6vw;}
 }
