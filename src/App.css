@@ -57,7 +57,7 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
   .fcont img{width: 27vw;height: auto;border-bottom-left-radius: 4vw;border-top-left-radius: 4vw;}
   .fcont p{font-size:2.3vw;color: aliceblue;font-style: italic;width: 50vw;}
 
-  .ked{font-size: 2vw;background-color: rgb(213, 253, 253);color: #282c34;border-radius: 4vw;margin-left: 45vw;
+  .ked{font-size: 2vw;background-color: rgb(213, 253, 253);color: #282c34;border-radius: 4vw;
   padding: 1vw;margin-bottom: 4vh;}
 
   .mdcont{display: flex;flex-direction: row-reverse;background-color: rgb(23, 100, 114);border-radius: 4vw;
@@ -147,7 +147,7 @@ color: white;font-size: 1.8vw;font-weight: bold;}
   .imgintro{height: auto;}
  .kcont p{font-size: 4.6vw;}
  .kcont{height: 40vh;width: auto;}
- .im{width: 65vw;}
+ .im{width: 85vw;}
  .kcont img{height: 40vh;width: 40vw;}
 .fcont p{font-size: 4.6vw;}
 .fcont{height: 40vh;width: auto;}
