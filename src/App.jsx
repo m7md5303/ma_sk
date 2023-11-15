@@ -326,7 +326,7 @@ function App() {
      </Fade>
      <Fade delay={200}>
      <div className='pricesb'>
-     <h1>ملاحظات بالنسبة للبرامج فوق الاقتصادية</h1>
+     <h1>ملاحظات بالنسبة للبرامج الاقتصادية</h1>
       <div className='printb'>
         <ul>
           <li>مطلوب جواز سفر بصلاحية لا تقل عن سنة</li>
