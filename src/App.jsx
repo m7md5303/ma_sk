@@ -23,6 +23,7 @@ import smb from './images/mov.png'
 import hty from './images/hayah_tyba.webp'
 import ka from './images/keswa.jpg'
 import htyq from './images/emar.png'
+import bomra from './images/bomra.jpg'
 import kaq from './images/kher.png'
 import fpr from './images/fpr.jpg'
 import hij from './images/hij.jpg'
@@ -34,6 +35,7 @@ import Khedma from './components/Khedma';
 import Flight from './components/Flight';
 
 function App() {
+  const [showomra,setShowomra]=useState(false);
   const [show5,setShow5]=useState(false); 
   const [show4,setShow4]=useState(false); 
   const [show3,setShow3]=useState(false); 
@@ -94,8 +96,13 @@ function App() {
      <Khedma img={khedma}para={"تقوم الشركة بتوفير خدمات ذات مستويات عالية لعملائها الكرام كما تتيح لهم فرصة اختيار ما ينسابهم من برامج اقامة و خدمات اضافة الى امكانية تقديم برامج مخصوصة للأفراد حسبما يناسب العملاء و الشركة"} />
      <Flight img={flight}para={"كما لم تنس الشركة توفير خدمة الطيران من والى الحرمين علي متن طائرات مصر للطيران و الخط السعودي للطيران متيحة لعملائها أفضل الخدمات"}/>
     
-     <img src={khamsa}alt='Loading⏳' className='im'/>
-            <button onClick={()=>{setShow5(!show5)}} className='bt'>{show5? "اخفاء" :"عرض"} </button>
+    <img className='im' src={bomra}/>
+    <button onClick={()=>{setShowomra(!showomra) ;setShow3(false);setShow5(false);setShowe(false);setShow4(false) }} className='bt'>{showomra? "اخفاء" :"عرض"} </button>
+    
+    
+    {showomra?
+     <img src={khamsa}alt='Loading⏳' className='im'/>:null}{showomra?
+            <button onClick={()=>{setShow5(!show5)}} className='bt'>{show5? "اخفاء" :"عرض"} </button>:null}
             {show5?
  <div className='types'>
   
@@ -184,9 +191,9 @@ function App() {
 
 
 
-
-    <img src={arba3a}alt='Loading⏳' className='im'/>
-            <button onClick={()=>{setShow4(!show4)}} className='bt'>{show4? "اخفاء" :"عرض"} </button>
+{showomra?
+    <img src={arba3a}alt='Loading⏳' className='im'/> :null} {showomra?  
+            <button onClick={()=>{setShow4(!show4)}} className='bt'>{show4? "اخفاء" :"عرض"} </button>:null}
             {show4?
 
     <div className='types'>
@@ -233,9 +240,9 @@ function App() {
 
 
 
-
-   <img src={tlataan}alt='Loading⏳' className='im'/>
-            <button onClick={()=>{setShow3(!show3)}} className='bt'>{show3? "اخفاء" :"عرض"} </button>
+{showomra?  
+   <img src={tlataan}alt='Loading⏳' className='im'/>:null}{showomra? 
+            <button onClick={()=>{setShow3(!show3)}} className='bt'>{show3? "اخفاء" :"عرض"} </button>:null}
             {show3?
 
    <div className='types'>
@@ -269,9 +276,9 @@ function App() {
 
 
 
-
-   <img src={eqt}alt='Loading⏳' className='im'/>
-            <button onClick={()=>{setShowe(!showe)}} className='bt'>{showe? "اخفاء" :"عرض"} </button>
+   {showomra? 
+   <img src={eqt}alt='Loading⏳' className='im'/>:null} {showomra? 
+            <button onClick={()=>{setShowe(!showe)}} className='bt'>{showe? "اخفاء" :"عرض"} </button>:null} 
             {showe?
    <div className='types'>
   
