@@ -148,6 +148,9 @@ margin-bottom: 30vh;padding-bottom: 2vh;background-color: azure;}
 
 
 @media only screen and (max-width: 768px) {
+  .hintro{width: 87vw;}
+  .hintrot{width: 87vw;}
+  .hintro img{width: 87vw;}
   .imgintro{height: auto;}
  .kcont p{font-size: 4.6vw;}
  .kcont{height: 40vh;width: auto;}

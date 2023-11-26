@@ -51,7 +51,7 @@ function App() {
           "",
         ]}
         speed={15}
-        style={{ whiteSpace: 'pre-line', fontSize: '2em', color: 'black' 
+        style={{ whiteSpace: 'pre-line', fontSize: '1.75em', color: 'black' 
         ,marginBottom:'12vh',marginLeft:'3vw',marginRight:'3vw'}}
         repeat={Infinity}
       /></div>
