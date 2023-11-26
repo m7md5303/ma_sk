@@ -25,7 +25,7 @@ import ka from './images/keswa.jpg'
 import htyq from './images/emar.png'
 import kaq from './images/kher.png'
 import fpr from './images/fpr.jpg'
-import hij from './images/hij.png'
+import hij from './images/wp4497715-arafat-day-wallpapers.jpg'
 import fpp from './images/fpp.jpg'
 import './App.css';
 import Mekka from './components/Mekka';
