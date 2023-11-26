@@ -25,6 +25,7 @@ import ka from './images/keswa.jpg'
 import htyq from './images/emar.png'
 import kaq from './images/kher.png'
 import fpr from './images/fpr.jpg'
+import hij from './images/hij.png'
 import fpp from './images/fpp.jpg'
 import './App.css';
 import Mekka from './components/Mekka';
@@ -41,6 +42,31 @@ function App() {
     <div className="App">
       
       <img src={m} className='imgintro'/>
+    <div className='hintro'><Fade delay={200}>
+    <img src={hij}/>
+    <div className='hintrot'> <TypeAnimation
+        sequence={[
+          'تعلن شركة الماسة ترافيل جروب عن فتح باب الحج لعملائها الكرام بأسعار تنافسية علي مستوي جمهورية مصر العربية. الان وبدون شروط قم بحجز مكانك معنا لتحصل عالي خدمات عالية الجودة. الي من لم تصب أساميهم القرعة فرصتك الان امامك فانتهزها. الي السيدات و السادة بجميع الأعمار ندعوكم لحجز مكانكم مع شركة الماسة ترافيل جروب لحج بيت اللّه الحرام لعام 1445 من الهجرة النبوية الشريفة. سائلين المولى-عز و جلّ- لنا ولكم القبول و الاخلاص.',
+          1000,
+          "",
+        ]}
+        speed={15}
+        style={{ whiteSpace: 'pre-line', fontSize: '2em', color: 'black' 
+        ,marginBottom:'12vh',marginLeft:'3vw',marginRight:'3vw'}}
+        repeat={Infinity}
+      /></div>
+
+
+
+
+
+    </Fade>
+    </div>
+
+
+
+
+
       <div className='mintro'>    <Fade delay={200}>
       <img src={l} className='l'/>
   
