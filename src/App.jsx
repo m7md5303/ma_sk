@@ -42,6 +42,25 @@ function App() {
     <div className="App">
       
       <img src={m} className='imgintro'/>
+
+
+      <div className='mintro'>    <Fade delay={200}>
+      <img src={l} className='l'/>
+  
+      <div className='intro'> <TypeAnimation
+        sequence={[
+          ' الى كل من غلبهم الشوق و ملأتهم الأمنيات بزيارة بيت اللّه الحرام ومسجد رسول اللّه ﷺ، تعلن شركة الماسة ترافيل-ترخيص سياحة 2197- عن فتح باب حجز الحج العمرة لموسم 1445 من الهجرة النبوية الشريفة سائلين اللّه-عزّ و جلّ- لنا ولكم القبول والاخلاص',
+          1000,
+          "",
+        ]}
+        speed={15}
+        style={{ whiteSpace: 'pre-line', fontSize: '2.4em', color: 'white' 
+        ,marginBottom:'12vh'}}
+        repeat={Infinity}
+      /></div></Fade></div>
+
+
+
     <div className='hintro'><Fade delay={200}>
     <img src={hij}/>
     <div className='hintrot'> <TypeAnimation
@@ -67,20 +86,7 @@ function App() {
 
 
 
-      <div className='mintro'>    <Fade delay={200}>
-      <img src={l} className='l'/>
-  
-      <div className='intro'> <TypeAnimation
-        sequence={[
-          ' الى كل من غلبهم الشوق و ملأتهم الأمنيات بزيارة بيت اللّه الحرام ومسجد رسول اللّه ﷺ، تعلن شركة الماسة ترافيل-ترخيص سياحة 2197- عن فتح باب حجز العمرة لموسم 1445 من الهجرة النبوية الشريفة سائلين اللّه-عزّ و جلّ- لنا ولكم القبول والاخلاص',
-          1000,
-          "",
-        ]}
-        speed={15}
-        style={{ whiteSpace: 'pre-line', fontSize: '2.4em', color: 'white' 
-        ,marginBottom:'12vh'}}
-        repeat={Infinity}
-      /></div></Fade></div>
+      
       
 
       <Fade delay={200}>
