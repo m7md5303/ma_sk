@@ -142,7 +142,9 @@ color: white;font-size: 1.8vw;font-weight: bold;}
   border-width: 0.5vw;border-color:rgb(8, 79, 233);border-style: solid;border-radius: 4vw;padding: 0vw;
 width: 65vw;height: auto;border-bottom-left-radius: 0;border-bottom-right-radius: 0;
 margin-bottom: 30vh;padding-bottom: 2vh;background-color: azure;}
-.hintrot{width: 65vw;height: auto;margin-left: 2vw;margin-right: 2vw;}
+.hintrot{width: 65vw;height: auto;margin-left: 2vw;margin-right: 2vw;display: flex;
+flex-direction: column;align-items: center;justify-content: center;color: black;
+font-size: 2.2vw;font-style: italic;}
 .hintro img{border-radius: 4vw;width: 65vw;height: 45vh;border-bottom-left-radius: 0;border-bottom-right-radius: 0;}
 
 
