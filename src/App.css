@@ -179,8 +179,8 @@ font-size: 2.2vw;font-style: italic;}
 .pricesc h1{font-size: 4vw}
 .pricesa{font-size: 2.6vw;}
 .printc {font-size: 2.6vw;}
-.pricesc {width: 85vw;}
-.printc{width: 80vw;}
+.pricesc {width: 95vw;}
+.printc{width: 90vw;}
 .printc ul{width: 60vw;}
 .pricesc img{height: 25vh;}
 .pricesb{width: 95vw;}
@@ -193,6 +193,6 @@ font-size: 2.2vw;font-style: italic;}
 .types{width: 90vw;}
 .types ul{font-size: 3vw;}
 .types h1{font-size: 3vw;}
-.types h2{font-size: 2vw;}
+.types h2{font-size: 2.5vw;}
 .bt{font-size: 4.6vw;height: 7vh;}
 }
