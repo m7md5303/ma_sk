@@ -128,7 +128,7 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
             .pricesa:hover{cursor: pointer;}
             .pricesa:visited{color:  rgb(80, 76, 76);;}
             .t{margin-top: 4vh;}
-      .f {font-size: 1.7vw;margin-bottom: 4vh;color: rgb(11, 119, 182);font-weight: bold;}
+      .f {font-size: 1.7vw;margin-bottom: 0.5vh;color: rgb(11, 119, 182);font-weight: bold;}
       .f:hover{cursor: pointer;}
             .f:visited{color:  rgb(11, 119, 182);;}
 
