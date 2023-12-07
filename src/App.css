@@ -146,7 +146,7 @@ margin-bottom:15vh;padding-bottom: 2vh;background-color: azure;}
 flex-direction: column;align-items: center;justify-content: center;color: black;
 font-size: 2.2vw;font-style: italic;}
 .hintro img{border-radius: 4vw;width: 65vw;height: 45vh;border-bottom-left-radius: 0;border-bottom-right-radius: 0;}
-.no{color: gold;font-size: 5vw;margin-bottom: 13vh;}
+.no{color: gold;font-size: 6vw;margin-bottom: 13vh;}
 
 
 @media only screen and (max-width: 768px) {
