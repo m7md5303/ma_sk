@@ -85,17 +85,17 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
       border-radius: 4vw;height: auto;width: 90vw;margin-bottom: 10vh;}
       .types h2{color: #282c34;font-size: 2vw;}
       .types ul{color: #282c34;font-size: 2vw;list-style: none;font-weight: bold;background-color:  rgb(213, 253, 253);
-      border-radius: 4vw;padding: 2vw;}
+      border-radius: 4vw;padding: 2vw;display: flex;align-items: flex-end;flex-direction: column;}
 
 
         .prices{background-color: red;display: flex;flex-direction: column;
-        align-items: end;justify-content: center;border-radius: 4vw;height: auto;width: 75vw;
+        align-items: end;justify-content: center;border-radius: 4vw;height: auto;width: 85vw;
       padding: 1vw;margin-top: 5vh;}
         .prices h1{font-size: 2vw;color: azure;}
         .print{display: flex;flex-direction: row-reverse;align-items: center;justify-content: center;
         background-color: azure;font-size: 1.3vw;border-radius: 4vw;}
         .print li{color: rgb(80, 76, 76);font-weight: bold;margin-bottom: 2vh;}
-        .print ul{list-style: none;}
+        .print ul{list-style: none;display: flex;flex-direction: column;align-items:flex-end ;}
         .print img{width: 30vw;height: auto;border-radius: 4vw;}
 
          
@@ -107,7 +107,7 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
           .printb{display: flex;flex-direction: row-reverse;align-items: center;justify-content: center;
           background-color: azure;font-size: 1.3vw;border-radius: 4vw;}
           .printb li{color: rgb(80, 76, 76);font-weight: bold;margin-bottom: 2vh;}
-          .printb ul{list-style: none;padding: 1vw;}
+          .printb ul{list-style: none;padding: 1vw;display: flex;flex-direction: column;align-items:flex-end ;}
 
 
 
@@ -115,13 +115,13 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
 
 
           .pricesc{background-color: rgb(0, 140, 255);display: flex;flex-direction: column;
-            align-items: end;justify-content: center;border-radius: 4vw;height: auto;width:55vw;
+            align-items: end;justify-content: center;border-radius: 4vw;height: auto;width:65vw;
           padding: 1vw;margin-top: 5vh;}
             .pricesc h1{font-size: 2vw;color: azure;}
-            .printc{display: flex;flex-direction: row-reverse;align-items: end;justify-content: center;
+            .printc{display: flex;flex-direction: row-reverse;align-items: start;justify-content: center;
             background-color: azure;font-size: 1.3vw;border-radius: 4vw; padding: 1vw;height: auto;}
             .printc li{color: rgb(80, 76, 76);font-weight: bold;margin-bottom: 2vh;margin-top: 2vh;}
-            .printc ul{list-style: none;}
+            .printc ul{list-style: none;display: flex;flex-direction: column;align-items:flex-end ;}
             .printc img{width: 30vw;height: auto;border-radius: 4vw;}
             .pricesa{text-decoration:underline;color: rgb(80, 76, 76);font-size: 1.3vw;font-weight: bold;
             margin-bottom: 7vh;}
@@ -133,8 +133,8 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
             .f:visited{color:  rgb(11, 119, 182);;}
 
 .im{width: 45vw;height: auto;border-radius: 4vw;}
-.bt{width: 12vw;height: 5.5vh;border-radius: 4vw;margin-bottom: 9vh;background-color: white;
-color: #0c275c;font-size: 1.8vw;font-weight: bold;}
+.bt{width: 15vw;height: 8.5vh;border-radius: 4vw;margin-bottom: 9vh;background-color: white;
+color: #0c275c;font-size: 3vw;font-weight: bold;}
 .bt:hover{cursor: pointer;background-color:white}
 
 
@@ -146,7 +146,7 @@ margin-bottom:15vh;padding-bottom: 2vh;background-color: azure;}
 flex-direction: column;align-items: center;justify-content: center;color: black;
 font-size: 2.2vw;font-style: italic;}
 .hintro img{border-radius: 4vw;width: 65vw;height: 45vh;border-bottom-left-radius: 0;border-bottom-right-radius: 0;}
-
+.no{color: gold;font-size: 5vw;margin-bottom: 13vh;}
 
 
 @media only screen and (max-width: 768px) {
@@ -194,5 +194,5 @@ font-size: 2.2vw;font-style: italic;}
 .types ul{font-size: 3vw;}
 .types h1{font-size: 3vw;}
 .types h2{font-size: 2vw;}
-.bt{font-size: 2.6vw;height: 3.7vh;}
+.bt{font-size: 4.6vw;height: 7vh;}
 }
