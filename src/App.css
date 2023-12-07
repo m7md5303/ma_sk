@@ -93,9 +93,9 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
       padding: 1vw;margin-top: 5vh;}
         .prices h1{font-size: 2vw;color: azure;}
         .print{display: flex;flex-direction: row-reverse;align-items: center;justify-content: center;
-        background-color: azure;font-size: 1.3vw;border-radius: 4vw;}
+        background-color: azure;font-size: 1.5vw;border-radius: 4vw;padding-right: 1vw;}
         .print li{color: rgb(80, 76, 76);font-weight: bold;margin-bottom: 2vh;}
-        .print ul{list-style: none;display: flex;flex-direction: column;align-items:flex-end ;}
+        .print ul{list-style: none;display: flex;flex-direction: column;align-items:flex-end ;width: 50vw;}
         .print img{width: 30vw;height: auto;border-radius: 4vw;}
 
          
@@ -119,12 +119,12 @@ width: 80vw;height: auto;align-items: center;justify-content:space-between;margi
           padding: 1vw;margin-top: 5vh;}
             .pricesc h1{font-size: 2vw;color: azure;}
             .printc{display: flex;flex-direction: row-reverse;align-items: start;justify-content: center;
-            background-color: azure;font-size: 1.3vw;border-radius: 4vw; padding: 1vw;height: auto;}
+            background-color: azure;font-size: 1.3vw;border-radius: 4vw; padding: 1vw;height: auto;padding-right: 1vw;}
             .printc li{color: rgb(80, 76, 76);font-weight: bold;margin-bottom: 2vh;margin-top: 2vh;}
             .printc ul{list-style: none;display: flex;flex-direction: column;align-items:flex-end ;}
             .printc img{width: 30vw;height: auto;border-radius: 4vw;}
             .pricesa{text-decoration:underline;color: rgb(80, 76, 76);font-size: 1.3vw;font-weight: bold;
-            margin-bottom: 7vh;}
+           }
             .pricesa:hover{cursor: pointer;}
             .pricesa:visited{color:  rgb(80, 76, 76);;}
             .t{margin-top: 4vh;}
@@ -183,7 +183,7 @@ font-size: 2.2vw;font-style: italic;}
 .printc{width: 90vw;}
 .printc ul{width: 60vw;}
 .pricesc li{margin-bottom: 0.5vh;}
-.pricesc img{height: 25vh;}
+.pricesc img{height: 27vh;}
 .pricesb{width: 95vw;}
 .printb{width: 95vw;}
 .prices img{height: 30vh;}
