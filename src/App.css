@@ -154,11 +154,11 @@ font-size: 2.2vw;font-style: italic;}
   .hintrot{width: 87vw;font-size: 4vw;}
   .hintro img{width: 87vw;height: 25vh;}
   .imgintro{height: auto;}
- .kcont p{font-size: 4.6vw;}
+ .kcont p{font-size: 4.6vw;display: flex;align-items: end;}
  .kcont{height: 40vh;width: auto;}
  .im{width: 85vw;}
  .kcont img{height: 40vh;width: 40vw;}
-.fcont p{font-size: 4.6vw;}
+.fcont p{font-size: 4.6vw;display: flex;align-items: end;}
 .fcont{height: 40vh;width: auto;}
 .fcont img{height: 40vh;width: 40vw;}
 .mdcont{height: 27vh;}
