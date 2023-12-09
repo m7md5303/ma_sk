@@ -73,7 +73,7 @@ function App() {
       <Fade delay={200}>
 
      <Khedma img={khedma}para={"تقوم الشركة بتوفير خدمات ذات مستويات عالية لعملائها الكرام كما تتيح لهم فرصة اختيار ما ينسابهم من برامج اقامة و خدمات اضافة الى امكانية تقديم برامج مخصوصة للأفراد حسبما يناسب العملاء و الشركة"} />
-     <Flight img={flight}para={"كما لم تنس الشركة توفير خدمة الطيران من والى الحرمين علي متن طائرات مصر للطيران و الخط السعودي للطيران متيحة لعملائها أفضل الخدمات"}/>
+     <Flight img={flight}para={"كما توفر الشركة خدمة استخراج تأشيرات السفر للمملكة العربية السعودية و لغيرها من البلدان العربية "}/>
     
     <img className='im' src={bomra}/>
     <button onClick={()=>{setShowomra(!showomra) ;setShow3(false);setShow5(false);setShowe(false);setShow4(false) }} className='bt'>{showomra? "اخفاء" :"عرض"} </button>
