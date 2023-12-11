@@ -12,6 +12,8 @@ import eqt from './images/eqt.jpg'
 import tlataan from './images/3.jpg'
 import arba3a from './images/2.jpg'
 import khamsa from './images/1.jpg'
+import aqiq from './images/aqiq.png'
+import s_royal from './images/s_royal.jpg'
 import fpr from './images/fpr.jpg'
 import con from './images/conus.jpg'
 import flight from './images/flight.jpg'
@@ -82,32 +84,33 @@ function App() {
     {showomra?
      <img src={khamsa}alt='Loading⏳' className='im'/>:null}{showomra?
             <button onClick={()=>{setShow5(!show5)}} className='bt'>{show5? "اخفاء" :"عرض"} </button>:null}
-            {show5?
+            {/* {show5?
 <h1 className='no'>عذرا، لا يتوفر برامج من هذه الفئة حاليا</h1>
     
     
     
-    :null}
-         {/* {show5?
+    :null} */}
+         {show5?
  <div className='types'>
   
    <Fade delay={200}>
     <h1 className='ked'> ⭐⭐⭐⭐⭐ برامج الخمس نجوم -ب- 10 أيام- 9 ليالي </h1>
-    <Mekka title={"أنجم مكة أو الشهداء أو ما يماثلها"} img={trb} para={"   مدة الاقامة: خمس ليالي || الوجبات: بالافطار "}/>
-    <Madina title={" موفنبيك أنوار المدينة أو سجي المدينة أو ما يماثلها"} img={smb} para={"  مدة الاقامة: أربع ليالي || الوجبات: بالافطار " }/> 
-    <h2 className='date' >تاريخ الرحلة:  يوم 22 جمادى الأولي 1445 هجري و 29 جمادي الأولي 1445 هجري</h2>
-    <h2 className='date'>تاريخ الرحلة:  يوم 6 ديسمبر 2023 و 13 ديسمبر 2023</h2>
+    <Mekka title={"دار الايمان الصفوة أو ما يماثلها"} img={s_royal} para={"   مدة الاقامة: خمس ليالي || الوجبات: بالافطار "}/>
+    <Madina title={" العقيق المدينة أو ما يماثلها"} img={aqiq} para={"  مدة الاقامة: أربع ليالي || الوجبات: بالافطار " }/> 
+    <h2 className='date' >تاريخ الرحلة:  يوم 14 جمادى الاخرة 1445 هجري - 27 ديسمبر 2023</h2>
     <ul>
-      <li>سعر الثنائي:72000 جنيه مصري-</li>
-      <li>سعر الثلاثي:65000 جنيه مصري-</li>
-      <li>سعر الرباعي:60000 جنيه مصري-</li>
+      <li>سعر الثنائي:74500 جنيه مصري-</li>
+      <li>سعر الثلاثي:63000 جنيه مصري-</li>
+      <li>سعر الرباعي:57500 جنيه مصري-</li>
+      <li>سعر الطفل من عامين الى 11 عاما:23500 جنيه مصري-</li>
+     <li>سعر الطفل حتى عامين:15500 جنيه مصري-</li>
     </ul>
       </Fade> 
     </div>
     
     
     
-    :null} */}
+    :null}
 
 
 
