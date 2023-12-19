@@ -318,7 +318,7 @@ function App() {
           <li>01001485673</li>
           <li>01009266616</li>
           <li>01005176087</li>
-          <a href="mailto:e-mail: info@almassa-travelgroup.com">e-mail: info@almassa-travelgroup.com</a>
+          <a href="mailto:e-mail: info@almassa-travelgroup.com" className='pricesa'>e-mail: info@almassa-travelgroup.com</a>
           <a href ="https://www.facebook.com/profile.php?id=61554023739000" className='pricesa'>أو من خلال صفحتنا علي فيسبوك </a>
          
         </ul>
