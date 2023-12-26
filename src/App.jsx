@@ -128,7 +128,7 @@ function App() {
     <div className='types'>
   
   <Fade delay={200}>
-  <h1 className='ked'> ⭐⭐⭐ برامج الثلاثة نجوم 15 يوم </h1>
+  <h1 className='ked'> ⭐⭐⭐ برنامج ال15 يوم ثلاثة نجوم  </h1>
    <Mekka title={"بدر الماسة أو ما يماثله"} img={magrnd} para={" التصنيف: ثلاثة نجوم   "}/>
    <Madina title={"كيان الماسي"} img={zgp} para={"  التصنيف: ثلاثة نجوم " }/> 
    <h2 className='date' >تاريخ الرحلة:  يوم 21 جمادى الاخرة 1445 هجري - 3 يناير 2023</h2>
