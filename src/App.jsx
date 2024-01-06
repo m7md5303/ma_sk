@@ -82,16 +82,33 @@ function App() {
     
     
     {showomra?
-//      <img src={khamsa}alt='Loading⏳' className='im'/>:null}{showomra?
-//             <button onClick={()=>{setShow5(!show5)}} className='bt'>{show5? "اخفاء" :"عرض"} </button>:null}
-//             {/* {show5?
-// <h1 className='no'>عذرا، لا يتوفر برامج من هذه الفئة حاليا</h1>
+      <img src={khamsa}alt='Loading⏳' className='im'/>:null}{showomra?
+            <button onClick={()=>{setShow5(!show5)}} className='bt'>{show5? "اخفاء" :"عرض"} </button>:null}
+           {show5?
+ <h1 className='no'>عذرا، لا يتوفر برامج من هذه الفئة حاليا</h1>
     
     
     
-//     :null} */}
-//          {show5?
- <div className='types'>
+     :null} 
+        
+
+    
+    
+    
+
+
+
+
+
+
+
+
+{showomra?
+     <img src={arba3a}alt='Loading⏳' className='im'/> :null} {showomra?  
+             <button onClick={()=>{setShow4(!show4)}} className='bt'>{show4? "اخفاء" :"عرض"} </button>:null}
+            {show4?
+
+    <div className='types'>
   
    <Fade delay={200}>
     <h1 className='ked'>  ⭐⭐⭐⭐ برنامج ال10 أيام أربع نجوم  </h1>
@@ -108,10 +125,9 @@ function App() {
     </ul>
       </Fade> 
     </div>
-    
-    
-    
     :null}
+ 
+   
 
 
 
@@ -120,12 +136,14 @@ function App() {
 
 
 
-{showomra?
-    // <img src={arba3a}alt='Loading⏳' className='im'/> :null} {showomra?  
-    //         <button onClick={()=>{setShow4(!show4)}} className='bt'>{show4? "اخفاء" :"عرض"} </button>:null}
-    //         {show4?
 
-    <div className='types'>
+
+{showomra?  
+    <img src={tlataan}alt='Loading⏳' className='im'/>:null}{showomra? 
+            <button onClick={()=>{setShow3(!show3)}} className='bt'>{show3? "اخفاء" :"عرض"} </button>:null}
+
+     {show3?
+   <div className='types'>
   
   <Fade delay={200}>
   <h1 className='ked'> ⭐⭐⭐ برنامج ال15 يوم ثلاثة نجوم  </h1>
@@ -141,28 +159,14 @@ function App() {
    </ul>
      </Fade> 
    </div>:null}
- 
-   
 
-
-
-
-
-
-
-
-
-
-{showomra?  
-  //  <img src={tlataan}alt='Loading⏳' className='im'/>:null}{showomra? 
-  //           <button onClick={()=>{setShow3(!show3)}} className='bt'>{show3? "اخفاء" :"عرض"} </button>:null}
-  //  {show3?
+    {show3?
 
 <div className='types'>
 
 <Fade delay={200}>
-<h1 className='ked'>🌟 برنامج ال15 يوم متنوع   </h1>
-<Mekka title={"روضة البيت"} img={bs} para={"  التصنيف: خمسة نجوم  "}/>
+  <h1 className='ked'> ⭐⭐⭐ برنامج ال15 يوم ثلاثة نجوم  </h1>
+<Mekka title={"روضة البيت"} img={bs} para={"  التصنيف:  ثلاثة نجوم  "}/>
    <Madina title={"كيان الماسي"} img={zgp} para={"  التصنيف: ثلاثة نجوم " }/> 
    <h2 className='date' >تاريخ الرحلة:  يوم 21 جمادى الاخرة 1445 هجري - 3 يناير 2023</h2>
     <h2 className='date' >تاريخ الرحلة:  يوم 16 رجب 1445 هجري - 28 يناير 2023</h2>
@@ -174,22 +178,6 @@ function App() {
  </Fade> 
 </div>:null}
 
-
-{/* <div className='types'>
-
-<Fade delay={200}>
-
-<Mekka title={"بكة الصلاح أو الأيام"} img={bs} para={"    "}/>
-   <Madina title={"مجموعة الزهراء"} img={zgp} para={"   " }/> 
-   <h2 className='date' >تاريخ الرحلة:  يوم 21 جمادى الاخرة 1445 هجري - 3 يناير 2023</h2>
-    <h2 className='date' >تاريخ الرحلة:  يوم 16 رجب 1445 هجري - 28 يناير 2023</h2>
-<ul>
- <li>سعر الثنائي:43000 جنيه مصري-</li>
- <li>سعر الثلاثي:37000 جنيه مصري-</li>
- <li>سعر الرباعي:34000 جنيه مصري-</li>
-</ul>
- </Fade> 
-</div>:null} */}
 
 
 
