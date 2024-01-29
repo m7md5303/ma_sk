@@ -155,11 +155,11 @@ function App() {
 
 //    </ul>
 //      </Fade> 
-//    </div>:null} 
+//    </div>:null*/} 
 
     {show3?
 
-    <h1 className='no'>عذرا، لا يتوفر برامج من هذه الفئة حاليا</h1>:null*/}
+    <h1 className='no'>عذرا، لا يتوفر برامج من هذه الفئة حاليا</h1>:null}
 
 
 
