@@ -79,7 +79,21 @@ function App() {
     
     <img className='im' src={bomra}/>
     <button onClick={()=>{setShowomra(!showomra) ;setShow3(false);setShow5(false);setShowe(false);setShow4(false) }} className='bt'>{showomra? "اخفاء" :"عرض"} </button>
-    
+   
+    {showomra?
+   <div className='types'>
+  
+  <Fade delay={200}>
+  <h1 className='ked'>برنامج الرابع من شعبان</h1>
+   <Mekka title={"فندق أبراج الضيافة"} img={magrnd} para={" مدة الاقامة:11 ليلة  "}/>
+   <Madina title={"فندق المختارة الذهبي"} img={zgp} para={"  مدة الاقامة:4 ليال " }/> 
+   <ul>
+   <li>الأسعار تبدأ من 39900 جنيه مصري</li>
+
+
+   </ul>
+     </Fade> 
+   </div>:null} 
     
     {showomra?
       <img src={khamsa}alt='Loading⏳' className='im'/>:null}{showomra?
@@ -108,24 +122,7 @@ function App() {
              <button onClick={()=>{setShow4(!show4)}} className='bt'>{show4? "اخفاء" :"عرض"} </button>:null}
             {show4?
 
-    <div className='types'>
-  
-   <Fade delay={200}>
-    <h1 className='ked'>  ⭐⭐⭐⭐ برنامج ال10 أيام أربع نجوم  </h1>
-    <Mekka title={"الماسة جراند"} img={s_royal} para={"    التصنيف: أربع نجوم"}/>
-    <Madina title={" الايمان طيبة"} img={aqiq} para={" التصنيف: أربع نجوم  " }/> 
-
-    <h2 className='date' >تاريخ الرحلة:  يوم 21 جمادى الاخرة 1445 هجري - 3 يناير 2023</h2>
-    <h2 className='date' >تاريخ الرحلة:  يوم 16 رجب 1445 هجري - 28 يناير 2023</h2>
-    <ul>
-    <li>سعر الثنائي:46000 جنيه مصري-</li>
-     <li>سعر الثلاثي:39000 جنيه مصري-</li>
-     <li>سعر الرباعي:35000 جنيه مصري-</li>
- 
-    </ul>
-      </Fade> 
-    </div>
-    :null}
+<h1 className='no'>عذرا، لا يتوفر برامج من هذه الفئة حاليا</h1> :null}
  
    
 
@@ -142,41 +139,27 @@ function App() {
     <img src={tlataan}alt='Loading⏳' className='im'/>:null}{showomra? 
             <button onClick={()=>{setShow3(!show3)}} className='bt'>{show3? "اخفاء" :"عرض"} </button>:null}
 
-     {show3?
-   <div className='types'>
+      // {/*show3?
+//    <div className='types'>
   
-  <Fade delay={200}>
-  <h1 className='ked'> ⭐⭐⭐ برنامج ال15 يوم ثلاثة نجوم  </h1>
-   <Mekka title={"بدر الماسة أو ما يماثله"} img={magrnd} para={" التصنيف: ثلاثة نجوم   "}/>
-   <Madina title={"كيان الماسي"} img={zgp} para={"  التصنيف: ثلاثة نجوم " }/> 
-   <h2 className='date' >تاريخ الرحلة:  يوم 21 جمادى الاخرة 1445 هجري - 3 يناير 2023</h2>
-    <h2 className='date' >تاريخ الرحلة:  يوم 16 رجب 1445 هجري - 28 يناير 2023</h2>
-   <ul>
-   <li>سعر الثنائي:43000 جنيه مصري-</li>
- <li>سعر الثلاثي:37000 جنيه مصري-</li>
- <li>سعر الرباعي:34000 جنيه مصري-</li>
+//   <Fade delay={200}>
+//   <h1 className='ked'> ⭐⭐⭐ برنامج ال15 يوم ثلاثة نجوم  </h1>
+//    <Mekka title={"بدر الماسة أو ما يماثله"} img={magrnd} para={" التصنيف: ثلاثة نجوم   "}/>
+//    <Madina title={"كيان الماسي"} img={zgp} para={"  التصنيف: ثلاثة نجوم " }/> 
+//    <h2 className='date' >تاريخ الرحلة:  يوم 21 جمادى الاخرة 1445 هجري - 3 يناير 2023</h2>
+//     <h2 className='date' >تاريخ الرحلة:  يوم 16 رجب 1445 هجري - 28 يناير 2023</h2>
+//    <ul>
+//    <li>سعر الثنائي:43000 جنيه مصري-</li>
+//  <li>سعر الثلاثي:37000 جنيه مصري-</li>
+//  <li>سعر الرباعي:34000 جنيه مصري-</li>
 
-   </ul>
-     </Fade> 
-   </div>:null}
+//    </ul>
+//      </Fade> 
+//    </div>:null} 
 
     {show3?
 
-<div className='types'>
-
-<Fade delay={200}>
-  <h1 className='ked'> ⭐⭐⭐ برنامج ال15 يوم ثلاثة نجوم  </h1>
-<Mekka title={"روضة البيت"} img={bs} para={"  التصنيف:  ثلاثة نجوم  "}/>
-   <Madina title={"كيان الماسي"} img={zgp} para={"  التصنيف: ثلاثة نجوم " }/> 
-   <h2 className='date' >تاريخ الرحلة:  يوم 21 جمادى الاخرة 1445 هجري - 3 يناير 2023</h2>
-    <h2 className='date' >تاريخ الرحلة:  يوم 16 رجب 1445 هجري - 28 يناير 2023</h2>
-<ul>
- <li>سعر الثنائي:36500 جنيه مصري-</li>
- <li>سعر الثلاثي:32500 جنيه مصري-</li>
- <li>سعر الرباعي:30900 جنيه مصري-</li>
-</ul>
- </Fade> 
-</div>:null}
+    <h1 className='no'>عذرا، لا يتوفر برامج من هذه الفئة حاليا</h1>:null*/}
 
 
 
@@ -192,12 +175,12 @@ function App() {
 
 
 
-{/* 
+
    {showomra? 
    <img src={eqt}alt='Loading⏳' className='im'/>:null} {showomra? 
             <button onClick={()=>{setShowe(!showe)}} className='bt'>{showe? "اخفاء" :"عرض"} </button>:null} 
             {showe?
-              <h1 className='no'>عذرا، لا يتوفر برامج من هذه الفئة حاليا</h1>:null} */}
+              <h1 className='no'>عذرا، لا يتوفر برامج من هذه الفئة حاليا</h1>:null}
 
 
 
@@ -216,7 +199,7 @@ function App() {
           <li>استخراج تأشيرة العمرة بالباركود</li>
           <li>تذكرة الطيران+الاقامة</li>
           <li>مرافقة مشرف ذو خبرة</li>
-          <li>التأمين الطبي داخل المملكة العربية السعودية</li>
+          <li>التنقلات الداخلية داخل المملكة العربية السعودية</li>
         </ul>
 <img src={fpr}/></div>
 
