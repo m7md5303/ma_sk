@@ -17,8 +17,8 @@ import s_royal from './images/massa_grand.png'
 import fpr from './images/fpr.jpg'
 import con from './images/conus.jpg'
 import flight from './images/flight.jpg'
-import zgp from './images/kyanmassa.jpeg'
-import bs from './images/rwdaajyad.jpeg'
+import ayafa from './images/abrajdyafa.jpeg'
+import mozahab from './images/mokhgold.jpeg'
 import alyan from './images/alyan.png'
 import magrnd from './images/badrmassa.jpeg'
 import bomra from './images/bomra.jpg'
@@ -85,8 +85,8 @@ function App() {
   
   <Fade delay={200}>
   <h1 className='ked'>برنامج الرابع من شعبان</h1>
-   <Mekka title={"فندق أبراج الضيافة"} img={magrnd} para={" مدة الاقامة:11 ليلة  "}/>
-   <Madina title={"فندق المختارة الذهبي"} img={zgp} para={"  مدة الاقامة:4 ليال " }/> 
+   <Mekka title={"فندق أبراج الضيافة"} img={ayafa} para={" مدة الاقامة:11 ليلة  "}/>
+   <Madina title={"فندق المختارة الذهبي"} img={mozahab} para={"  مدة الاقامة:4 ليال " }/> 
    <ul>
    <li>الأسعار تبدأ من 39900 جنيه مصري</li>
 
