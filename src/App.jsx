@@ -19,8 +19,8 @@ import con from './images/conus.jpg'
 import flight from './images/flight.jpg'
 import ayafa from './images/abrajdyafa.jpeg'
 import mozahab from './images/mokhgold.jpeg'
-import alyan from './images/alyan.png'
-import magrnd from './images/badrmassa.jpeg'
+import arcan from './images/arkanbecca.webp'
+import darsalam from './images/darsalamfaddy.webp'
 import bomra from './images/bomra.jpg'
 import hij from './images/hij.jpg'
 import './App.css';
@@ -80,6 +80,25 @@ function App() {
     <img className='im' src={bomra}/>
     <button onClick={()=>{setShowomra(!showomra) ;setShow3(false);setShow5(false);setShowe(false);setShow4(false) }} className='bt'>{showomra? "اخفاء" :"عرض"} </button>
    
+        {showomra?
+   <div className='types'>
+  
+  <Fade delay={200}>
+  <h1 className='ked'>برنامج العاشر من شعبان</h1>
+   <Mekka title={"فندق أركان بكة"} img={arcan} para={"مدة الاقامة:5 ليال  "}/>
+   <Madina title={"فندق دار السلام الفضّيّ"} img={darsalam} para={" مدة الاقامة:ليلتان " }/> 
+   <ul>
+   <li>الأسعار تبدأ من 27500 جنيه مصري</li>
+
+
+   </ul>
+     </Fade> 
+   </div>:null} 
+
+
+
+
+
     {showomra?
    <div className='types'>
   
