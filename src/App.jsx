@@ -87,8 +87,8 @@ function App() {
   
   <Fade delay={200}>
   <h1 className='ked'>من 8 رمضان الى 7 شوال</h1>
-   <Mekka title={"فندق نجمة أجياد"} img={arcan} para={"من 13 رمضان الى 7 شوال "}/>
-   <Madina title={"فندق مجموعة ديار المدينة"} img={darsalam} para={" من 8 رمضان الى 13 رمضان "}/> 
+   <Mekka title={"فندق نجمة أجياد"} img={negaj} para={"من 13 رمضان الى 7 شوال "}/>
+   <Madina title={"فندق مجموعة ديار المدينة"} img={dmadina} para={" من 8 رمضان الى 13 رمضان "}/> 
    <ul>
    <li>سعر الفرد 69900 جنسه مصري</li>
 
@@ -119,8 +119,8 @@ function App() {
   
   <Fade delay={200}>
   <h1 className='ked'>من 23 شعبان الى 8 رمضان</h1>
-   <Mekka title={"فندق نجمة أجياد"} img={arcan} para={"من 5 رمضان الى 13 رمضان "}/>
-   <Madina title={"فندق مجموعة ديار المدينة"} img={darsalam} para={" من 13 رمضان الى 17 رمضان "}/> 
+   <Mekka title={"فندق نجمة أجياد"} img={negaj} para={"من 5 رمضان الى 13 رمضان "}/>
+   <Madina title={"فندق مجموعة ديار المدينة"} img={dmadina} para={" من 13 رمضان الى 17 رمضان "}/> 
    <ul>
    <li>سعر الفرد 45000 جنسه مصري</li>
 
@@ -152,8 +152,8 @@ function App() {
   
   <Fade delay={200}>
   <h1 className='ked'>من 23 شعبان الى 8 رمضان</h1>
-   <Mekka title={"فندق نجمة أجياد"} img={arcan} para={"من 23 شعبان الى 5 رمضان "}/>
-   <Madina title={"فندق مجموعة ديار المدينة"} img={darsalam} para={" من 5 رمضان الى 8 رمضان " }/> 
+   <Mekka title={"فندق نجمة أجياد"} img={negaj} para={"من 23 شعبان الى 5 رمضان "}/>
+   <Madina title={"فندق مجموعة ديار المدينة"} img={dmadina} para={" من 5 رمضان الى 8 رمضان " }/> 
    <ul>
    <li>سعر الفرد 45000 جنسه مصري</li>
 
