@@ -23,6 +23,8 @@ import arcan from './images/arkanbecca.webp'
 import darsalam from './images/darsalamfaddy.webp'
 import bomra from './images/bomra.jpg'
 import hij from './images/hij.jpg'
+import negaj from './images/negmaajyad.jpeg'
+import dmadina from './images/dyarmadina.jpeg'
 import './App.css';
 import Mekka from './components/Mekka';
 import Madina from './components/Madina';
@@ -80,13 +82,114 @@ function App() {
     <img className='im' src={bomra}/>
     <button onClick={()=>{setShowomra(!showomra) ;setShow3(false);setShow5(false);setShowe(false);setShow4(false) }} className='bt'>{showomra? "اخفاء" :"عرض"} </button>
    
+    {showomra?
+   <div className='types'>
+  
+  <Fade delay={200}>
+  <h1 className='ked'>من 8 رمضان الى 7 شوال</h1>
+   <Mekka title={"فندق نجمة أجياد"} img={arcan} para={"من 13 رمضان الى 7 شوال "}/>
+   <Madina title={"فندق مجموعة ديار المدينة"} img={darsalam} para={" من 8 رمضان الى 13 رمضان "}/> 
+   <ul>
+   <li>سعر الفرد 69900 جنسه مصري</li>
+
+
+   </ul>
+     </Fade> 
+   </div>:null} 
+
+    {showomra?
+   <div className='types'>
+  
+  <Fade delay={200}>
+  <h1 className='ked'>من 8 رمضان الى 7 شوال</h1>
+   <Mekka title={"فندق أركان بكة"} img={arcan} para={"من 13 رمضان الى 7 شوال "}/>
+   <Madina title={"فندق ديار السلام الفضّيّ"} img={darsalam} para={" من 8 رمضان الى 13 رمضان " }/> 
+   <ul>
+   <li>سعر الفرد 65000 جنسه مصري</li>
+
+
+   </ul>
+     </Fade> 
+   </div>:null} 
+
+
+     
+    {showomra?
+   <div className='types'>
+  
+  <Fade delay={200}>
+  <h1 className='ked'>من 23 شعبان الى 8 رمضان</h1>
+   <Mekka title={"فندق نجمة أجياد"} img={arcan} para={"من 5 رمضان الى 13 رمضان "}/>
+   <Madina title={"فندق مجموعة ديار المدينة"} img={darsalam} para={" من 13 رمضان الى 17 رمضان "}/> 
+   <ul>
+   <li>سعر الفرد 45000 جنسه مصري</li>
+
+
+   </ul>
+     </Fade> 
+   </div>:null} 
+
+
+    {showomra?
+   <div className='types'>
+  
+  <Fade delay={200}>
+  <h1 className='ked'>من 5 رمضان الى 17 رمضان</h1>
+   <Mekka title={"فندق أركان بكة"} img={arcan} para={"من 5 رمضان الى 13 رمضان "}/>
+   <Madina title={"فندق ديار السلام الفضّيّ"} img={darsalam} para={" من 13 رمضان الى 17 رمضان " }/> 
+   <ul>
+   <li>سعر الفرد 42000 جنسه مصري</li>
+
+
+   </ul>
+     </Fade> 
+   </div>:null} 
+  
+  
+  
+    {showomra?
+   <div className='types'>
+  
+  <Fade delay={200}>
+  <h1 className='ked'>من 23 شعبان الى 8 رمضان</h1>
+   <Mekka title={"فندق نجمة أجياد"} img={arcan} para={"من 23 شعبان الى 5 رمضان "}/>
+   <Madina title={"فندق مجموعة ديار المدينة"} img={darsalam} para={" من 5 رمضان الى 8 رمضان " }/> 
+   <ul>
+   <li>سعر الفرد 45000 جنسه مصري</li>
+
+
+   </ul>
+     </Fade> 
+   </div>:null} 
+
+
+
+
+    {showomra?
+   <div className='types'>
+  
+  <Fade delay={200}>
+  <h1 className='ked'>من 23 شعبان الى 8 رمضان</h1>
+   <Mekka title={"فندق أركان بكة"} img={arcan} para={"من 23 شعبان الى 5 رمضان "}/>
+   <Madina title={"فندق ديار السلام الفضّيّ"} img={darsalam} para={" من 5 رمضان الى 8 رمضان " }/> 
+   <ul>
+   <li>سعر الفرد 42000 جنسه مصري</li>
+
+
+   </ul>
+     </Fade> 
+   </div>:null} 
+
+
+
+
         {showomra?
    <div className='types'>
   
   <Fade delay={200}>
   <h1 className='ked'>برنامج العاشر من شعبان</h1>
    <Mekka title={"فندق أركان بكة"} img={arcan} para={"مدة الاقامة:5 ليال  "}/>
-   <Madina title={"فندق دار السلام الفضّيّ"} img={darsalam} para={" مدة الاقامة:ليلتان " }/> 
+   <Madina title={"فندق ديار السلام الفضّيّ"} img={darsalam} para={" مدة الاقامة:ليلتان " }/> 
    <ul>
    <li>الأسعار تبدأ من 27500 جنيه مصري</li>
 
@@ -114,7 +217,7 @@ function App() {
      </Fade> 
    </div>:null} 
     
-    {showomra?
+    {/* {showomra?
       <img src={khamsa}alt='Loading⏳' className='im'/>:null}{showomra?
             <button onClick={()=>{setShow5(!show5)}} className='bt'>{show5? "اخفاء" :"عرض"} </button>:null}
            {show5?
@@ -122,7 +225,7 @@ function App() {
     
     
     
-     :null} 
+     :null}  */}
         
 
     
@@ -135,13 +238,13 @@ function App() {
 
 
 
-
+{/* 
 {showomra?
      <img src={arba3a}alt='Loading⏳' className='im'/> :null} {showomra?  
              <button onClick={()=>{setShow4(!show4)}} className='bt'>{show4? "اخفاء" :"عرض"} </button>:null}
             {show4?
 
-<h1 className='no'>عذرا، لا يتوفر برامج من هذه الفئة حاليا</h1> :null}
+<h1 className='no'>عذرا، لا يتوفر برامج من هذه الفئة حاليا</h1> :null} */}
  
    
 
@@ -154,7 +257,7 @@ function App() {
 
 
 
-{showomra?  
+{/* {showomra?  
     <img src={tlataan}alt='Loading⏳' className='im'/>:null}{showomra? 
             <button onClick={()=>{setShow3(!show3)}} className='bt'>{show3? "اخفاء" :"عرض"} </button>:null}
 
@@ -174,13 +277,11 @@ function App() {
 
 //    </ul>
 //      </Fade> 
-//    </div>:null*/} 
+//    </div>:null*/}  
 
-    {show3?
+    {/* {show3?
 
-    <h1 className='no'>عذرا، لا يتوفر برامج من هذه الفئة حاليا</h1>:null}
-
-
+    <h1 className='no'>عذرا، لا يتوفر برامج من هذه الفئة حاليا</h1>:null} */}
 
 
 
@@ -195,11 +296,13 @@ function App() {
 
 
 
+
+{/* 
    {showomra? 
    <img src={eqt}alt='Loading⏳' className='im'/>:null} {showomra? 
             <button onClick={()=>{setShowe(!showe)}} className='bt'>{showe? "اخفاء" :"عرض"} </button>:null} 
             {showe?
-              <h1 className='no'>عذرا، لا يتوفر برامج من هذه الفئة حاليا</h1>:null}
+              <h1 className='no'>عذرا، لا يتوفر برامج من هذه الفئة حاليا</h1>:null} */}
 
 
 
