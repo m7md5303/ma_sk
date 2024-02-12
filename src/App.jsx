@@ -13,7 +13,10 @@ import tlataan from './images/3.jpg'
 import arba3a from './images/2.jpg'
 import khamsa from './images/1.jpg'
 import aqiq from './images/emantyba.png'
-import s_royal from './images/massa_grand.png'
+import massagrand from './images/massa_grand.png'
+import kyanmassa from './images/kyanmassa.jpeg'
+import emantyba from './images/emantyba.png'
+import rajyad from './images/rwdaajyad.jpeg'
 import fpr from './images/fpr.jpg'
 import con from './images/conus.jpg'
 import flight from './images/flight.jpg'
@@ -181,7 +184,78 @@ function App() {
    </div>:null} 
 
 
+   {showomra?
+   <div className='types'>
+  
+  <Fade delay={200}>
+  <h1 className='ked'>برنامج ال15 يوم للسابع عشر من شعبان</h1>
+   <Mekka title={"فندق الماسة جراند"} img={massagrand} para={"مدة الاقامة:11 يوم  "}/>
+   <Madina title={"فندق درة الايمان"} img={emantyba} para={" مدة الاقامة:أربع أيام " }/> 
+   <ul>
+   <li>الثنائي : 75000</li>
+   <li>الثلاثي : 59000</li>
+   <li>الرباعي : 51000</li>
 
+
+   </ul>
+     </Fade> 
+   </div>:null} 
+
+
+   {showomra?
+   <div className='types'>
+  
+  <Fade delay={200}>
+  <h1 className='ked'>برنامج ال15 يوم للسابع عشر من شعبان</h1>
+   <Mekka title={"فندق روضة البيت"} img={rajyad} para={"مدة الاقامة:11 يوم  "}/>
+   <Madina title={"فندق كيان الماسي"} img={kyanmassa} para={" مدة الاقامة:أربع أيام " }/> 
+   <ul>
+   <li>الثنائي : 44000</li>
+   <li>الثلاثي : 39000</li>
+   <li>الرباعي : 36000</li>
+
+
+   </ul>
+     </Fade> 
+   </div>:null} 
+  
+
+   {showomra?
+   <div className='types'>
+  
+  <Fade delay={200}>
+  <h1 className='ked'>برنامج الأسبوع للحادي عشر من شعبان</h1>
+   <Mekka title={"فندق الماسة جراند"} img={massagrand} para={"مدة الاقامة:5 ليال  "}/>
+   <Madina title={"فندق درة الايمان"} img={emantyba} para={" مدة الاقامة:ليلتان " }/> 
+   <ul>
+   <li>الثنائي : 51000</li>
+   <li>الثلاثي : 43000</li>
+   <li>الرباعي : 39000</li>
+
+
+   </ul>
+     </Fade> 
+   </div>:null} 
+
+
+
+
+   {showomra?
+   <div className='types'>
+  
+  <Fade delay={200}>
+  <h1 className='ked'>برنامج الأسبوع للحادي عشر من شعبان</h1>
+   <Mekka title={"فندق روضة البيت"} img={rajyad} para={"مدة الاقامة:5 ليال  "}/>
+   <Madina title={"فندق كيان الماسي"} img={kyanmassa} para={" مدة الاقامة:ليلتان " }/> 
+   <ul>
+   <li>الثنائي : 35000</li>
+   <li>الثلاثي : 31500</li>
+   <li>الرباعي : 29900</li>
+
+
+   </ul>
+     </Fade> 
+   </div>:null} 
 
         {showomra?
    <div className='types'>
