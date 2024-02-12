@@ -118,7 +118,7 @@ function App() {
    <div className='types'>
   
   <Fade delay={200}>
-  <h1 className='ked'>من 23 شعبان الى 8 رمضان</h1>
+  <h1 className='ked'>من 5 رمضان الى 17 رمضان</h1>
    <Mekka title={"فندق نجمة أجياد"} img={negaj} para={"من 5 رمضان الى 13 رمضان "}/>
    <Madina title={"فندق مجموعة ديار المدينة"} img={dmadina} para={" من 13 رمضان الى 17 رمضان "}/> 
    <ul>
